@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: MainTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.553 s - in MainTest
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 12.604 s <<< FAILURE! - in MainTest
+trunsferTRX  Time elapsed: 0.536 s  <<< ERROR!
+java.lang.RuntimeException: OTHER_ERROR, <ByteString@5921b93c size=36 contents="Account resource insufficient error.">
+	at MainTest.trunsferTRX(MainTest.java:42)
+
+createWallet  Time elapsed: 0.584 s  <<< ERROR!
+java.lang.RuntimeException: OTHER_ERROR, <ByteString@67ecf7ed size=85 contents="Contract validate error : account [TTabF3j7rSLD...">
+	at MainTest.createWallet(MainTest.java:92)
+

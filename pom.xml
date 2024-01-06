@@ -49,21 +49,21 @@
             <artifactId>abi</artifactId>
             <version>0.3.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/abi-0.3.0.jar</systemPath>
+            <systemPath>${project.basedir}/lib/abi-0.8.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.tron.trident</groupId>
             <artifactId>utils</artifactId>
             <version>0.3.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/utils-0.3.0.jar</systemPath>
+            <systemPath>${project.basedir}/lib/utils-0.8.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.tron.trident</groupId>
             <artifactId>core</artifactId>
             <version>0.3.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/core-0.3.0.jar</systemPath>
+            <systemPath>${project.basedir}/lib/core-0.8.0.jar</systemPath>
         </dependency>
 
 
@@ -79,10 +79,13 @@
             <artifactId>bcpkix-jdk15on</artifactId>
             <version>1.59</version>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
